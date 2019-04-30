@@ -1,10 +1,10 @@
 ---
 layout: page
-title:
+title: Hi, I'm Llazar
 permalink: /about/
 ---
 
-# Few words about me 
+ 
 
 My name is Llazar Gjermeni and I am a  Web Application Developer and Software Developer, currently living in Vlora, Albania. I have a Bachelor of Science in Computer Science from Vlora University, and my primary focus and inspiration for my studies is Web Development and Azure Development. I am both driven and self-motivated,and I am constantly experimenting with new technologies and techniques. I am very passionate about Web Development, and strive to better myself as a developer, and the development community as a whole.
 

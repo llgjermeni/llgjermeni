@@ -1,0 +1,62 @@
+
+
+    <div className="nav-container">
+
+      <div className="brand">
+
+      
+
+          <img src={floppy} className="favicon" /> <span className="text">Tania Rascia</span>
+
+        
+
+      </div>
+
+      <div className="links">
+
+        {menuLinks.map(link => (
+
+          <Link key={link.name} to={link.link}>
+
+            {link.name}
+
+          </Link>
+
+        ))}
+
+        <a target="_blank" href="https://github.com/taniarascia">
+
+          GitHub
+
+        </a>
+
+        <div className="cta">
+
+          <button className="dark-switcher" onClick={theme.toggleDark}>
+
+            {theme.dark ? (
+
+              <span>
+
+                <img src={sun} className="theme-icon" />
+
+              </span>
+
+            ) : (
+
+              <span>
+
+                <img src={moon} className="theme-icon" />
+
+              </span>
+
+            )}
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+

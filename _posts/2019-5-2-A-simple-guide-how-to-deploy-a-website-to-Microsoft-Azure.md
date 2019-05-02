@@ -99,7 +99,7 @@ To start with, you need to create a new repository in GitHub and push an .NET Co
 
 Let's go to github and fill in the details needed like repository name and click the **Create repository** button to get up and running with your repository. 
 
-![Create Github Repository](/images/SecondPost/Githubrepo.png)
+![Create Github Repository](/images/SecondPost/GithubRepo.png)
 
 Now it's time for your .NET Core web app. Using dotnet commands you can create a new web app.
 - use the command `dotnet new webapp -n sample-app` to create a new razor app.

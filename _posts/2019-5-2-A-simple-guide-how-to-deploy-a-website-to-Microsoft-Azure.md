@@ -29,7 +29,7 @@ To use Visual Studio Code for Azure development, you'll need to install  Azure A
 - Click Sign in to Azure with your account. You should see your subscription name.
 - Enter `ctrl+p` to display the command palette and click Create New Web App
 
- ![Create Web App](/images/SecondPost/CreateWebApp.png)
+ ![Create Web App](/images/SecondPost/CreateWebApp.PNG)
 
 - Enter the app name, must be unique
 - Choose a location 
@@ -38,7 +38,7 @@ To use Visual Studio Code for Azure development, you'll need to install  Azure A
 After a short amount of time a notification will shows services created for your app and your app will be displayed under your subscription. 
 - Choose the directory of your project wich is open
 
- ![Select Folder](/images/SecondPost/SelectFolder.png)
+ ![Select Folder](/images/SecondPost/SelectFolder.PNG)
 
 After the deployment completes, click Browse Website in the prompt to see your deployed website.
 
@@ -50,7 +50,7 @@ When installing Visual Studio, you'll see that several workloads are available. 
 - **Azure development** workload which includes the Azure SDKs, tooling, and template projects
 - **ASP.NET and web development** which is the development workload in Visual Studio 2017 designed to maximize your productivity in developing web applications using ASP.NET and standards-based technologies like HTML and JavaScript.
 
-![Azure Development](/images/SecondPost/select-azure-workload.png)
+![Azure Development](/images/SecondPost/select-azure-workload.PNG)
 
 Open Visual Studio and click the View menu to make sure you have the Cloud Explorer option.
 At this point let's create a template ASP.NET MVC Core Project just for demostration. 
@@ -62,17 +62,17 @@ Press File and New Project.
 - Select MVC.
 - On Authentication select No Authentication.
 
-![Mvc Project](/images/SecondPost/MvcProject.png)
+![Mvc Project](/images/SecondPost/MvcProject.PNG)
 
 - Check the Configure for HTTPS
 
 After a while, you will see the project in solution explorer.
 
-![Solution Explorer](/images/SecondPost/SolutionExplorer.png)
+![Solution Explorer](/images/SecondPost/SolutionExplorer.PNG)
 
 Run the Application with the green button or prees F5 and you will notice the template created.
 
-![Web Template](/images/SecondPost/Template.png)
+![Web Template](/images/SecondPost/Template.PNG)
 
 Stop the application, right click on your Project and press Publish.
 In the App Service tab check Create New and press Publish. Now you need to enter your app details.
@@ -83,11 +83,11 @@ In the App Service tab check Create New and press Publish. Now you need to enter
 - Activate Application Insight, it's optional
 - Finally press Create
 
-![Create Azure Web App](/images/SecondPost/CreateAzureWebApp.png)
+![Create Azure Web App](/images/SecondPost/CreateAzureWebApp.PNG)
 
 And the result in browser as you can see the app is published with the url https://my-sample.azurewebsite.net
 
-![Azure Web App](/images/SecondPost/AzureApp.png)
+![Azure Web App](/images/SecondPost/AzureApp.PNG)
 
 Congratulations! You just published your first app in Azure using Visual Studio 2017. 
 
@@ -99,17 +99,17 @@ To start with, you need to create a new repository in GitHub and push an .NET Co
 
 Let's go to github and fill in the details needed like repository name and click the **Create repository** button to get up and running with your repository. 
 
-![Create Github Repository](/images/SecondPost/Githubrepo.png)
+![Create Github Repository](/images/SecondPost/Githubrepo.PNG)
 
 Now it's time for your .NET Core web app. Using dotnet commands you can create a new web app.
 - use the command `dotnet new webapp -n sample-app` to create a new razor app.
 - enter `cd sample-app` and `dotnet run` to run the app 
 
-![Create with dotnet commands](/images/SecondPost/DotnetCommands.png)
+![Create with dotnet commands](/images/SecondPost/DotnetCommands.PNG)
 
 Now you can see the app running.
 
-![In Browser](/images/SecondPost/InBrowser.png)
+![In Browser](/images/SecondPost/InBrowser.PNG)
 
 Stop the app and to push the new dotnet web app to GitHub you need to write the following commands:
 
@@ -125,14 +125,14 @@ Now you need to go to the Azure portal to create your web app.
 
 - Enter `portal.azure.com` in browser, navigate to the App Services and click Add button. Enter your app details: name, resource group, app service plan and location and click the Create button.
 
-![Add App](/images/SecondPost/AddApp.png)
+![Add App](/images/SecondPost/AddApp.PNG)
 
 After your app got created scroll down, press Deployment Center and select the GitHub option.
 
- ![Deployment](/images/SecondPost/Deployment.png)
+ ![Deployment](/images/SecondPost/Deployment.PNG)
 
  Press the Continue button. In the next tab you need to enter your GitHub name, select your repository, branch and again press continue.
 
-![Select repository](/images/SecondPost/SelectRepository.png)
+![Select repository](/images/SecondPost/SelectRepository.PNG)
 
 Now at the end press the Finish button, wait few minutes and click the link of the web app you just created.

@@ -18,8 +18,12 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+ 	// background-color: #587470;
+  background: $white;
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: $helveticaNeue;
+  // font-family: $trebuchet;
   color: $darkGray;
 }
 

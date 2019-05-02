@@ -60,7 +60,7 @@ You create repository to host a project. Repositories can contain folders and fi
 6. Add .gitignore file. It is used to ignore all kind of file you don't want to be included in your repo
 7. Add a licence. You can add it later if you want
 
-![Create repository]({{ site.baseurl }}/images/Git_Github_post/Create Repository.png)
+![Create repository](/images/GitGithubpost/CreateRepository.png)
 
 ## 3. Starting a project
 
@@ -74,7 +74,7 @@ Let's create a sample project with cmd commands.
 6. `git commit -m "First commit"` First commit
 7. `git status` Check the status of the repository
 
-![Starting Project]({{ site.baseurl }}/images/Git_Github_post/starting_Project.png)
+![Starting Project](/images/GitGithubpost/startingProject.png)
 
 8. `code .` Open project with VS Code and put some html code.
 
@@ -98,9 +98,7 @@ Let's create a sample project with cmd commands.
 
 9. `git commit -m "Second commit"` Second commit  
 10. Now you need to connect your local repo with github repository. 
-`
-git remote add origin https://github.com/user/repo.git
-`
+`git remote add origin https://github.com/user/repo.git`
 user is your github name and repo is the name of your repository. Add `git push -u origin master` to push your project in github repository   
 
 You can refresh the browser in github and you'll see the folder with the index.html file in the github repository 

@@ -38,7 +38,7 @@ To use Visual Studio Code for Azure development, you'll need to install  Azure A
 After a short amount of time a notification will shows services created for your app and your app will be displayed under your subscription. 
 - Choose the directory of your project wich is open
 
- ![Select Folder](/images/SecondPost/SelectFolder.PNG)
+ ![Select Folder](/images/SecondPost/SelectFolder.png)
 
 After the deployment completes, click Browse Website in the prompt to see your deployed website.
 
@@ -50,7 +50,7 @@ When installing Visual Studio, you'll see that several workloads are available. 
 - **Azure development** workload which includes the Azure SDKs, tooling, and template projects
 - **ASP.NET and web development** which is the development workload in Visual Studio 2017 designed to maximize your productivity in developing web applications using ASP.NET and standards-based technologies like HTML and JavaScript.
 
-![Azure Development](/images/SecondPost/select-azure-workload.PNG)
+![Azure Development](/images/SecondPost/select-azure-workload.png)
 
 Open Visual Studio and click the View menu to make sure you have the Cloud Explorer option.
 At this point let's create a template ASP.NET MVC Core Project just for demostration. 
@@ -99,7 +99,7 @@ To start with, you need to create a new repository in GitHub and push an .NET Co
 
 Let's go to github and fill in the details needed like repository name and click the **Create repository** button to get up and running with your repository. 
 
-![Create Github Repository](/images/SecondPost/Githubrepo.PNG)
+![Create Github Repository](/images/SecondPost/Githubrepo.png)
 
 Now it's time for your .NET Core web app. Using dotnet commands you can create a new web app.
 - use the command `dotnet new webapp -n sample-app` to create a new razor app.

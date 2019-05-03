@@ -60,7 +60,7 @@ You create repository to host a project. Repositories can contain folders and fi
 6. Add .gitignore file. It is used to ignore all kind of file you don't want to be included in your repo
 7. Add a licence. You can add it later if you want
 
-![Create repository](/images/GitGithubpost/CreateRepository.png)
+![Create repository](/images/GitGithubpost/CreateRepository.PNG)
 
 ## 3. Starting a project
 
@@ -74,7 +74,7 @@ Let's create a sample project with cmd commands.
 6. `git commit -m "First commit"` First commit
 7. `git status` Check the status of the repository
 
-![Starting Project](/images/GitGithubpost/startingProject.png)
+![Starting Project](/images/GitGithubpost/startingProject.PNG)
 
 8. `code .` Open project with VS Code and put some html code.
 

@@ -60,7 +60,7 @@ You create repository to host a project. Repositories can contain folders and fi
 6. Add .gitignore file. It is used to ignore all kind of file you don't want to be included in your repo
 7. Add a licence. You can add it later if you want
 
-![Create repository](/images/GitGithubpost/CreateRepository.png)
+![Create repository](/images/GitGithubpost/CreateRepository.PNG)
 
 ## 3. Starting a project
 
@@ -109,7 +109,7 @@ Rechecking the status with `git status` is optional, but will show you what chan
 After staging your changes, you can save them by committing. You add a message to the commit, so you know what changes occurred.  Make sure to provide a concise description by adding meaningful messages that helps your teammates (and yourself) understand what happened. 
 - `git commit -m "First commit"` 
 
-![Starting Project](/images/GitGithubpost/startingProject.png)
+![Starting Project](/images/GitGithubpost/startingProject.PNG)
 
 - `code .` Open project with VS Code and put some html code.
 

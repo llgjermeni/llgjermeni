@@ -64,21 +64,56 @@ You create repository to host a project. Repositories can contain folders and fi
 
 ## 3. Starting a project
 
+#### How to setup your Git identity?
+
+Before committing changes to a project, you need to set up for the first-time.
+Using Git Bash or Terminal, enter the following after replacing <Your Name> and <YourEmail> using the format demonstrated below.
+
+<pre><code>
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+</code></pre>
+
 Let's create a sample project with cmd commands.
 
-1. `mkdir SampleProject`  Create a folder with desired name.
-2. `cd SampleProject`  Navigate inside the folder.
-3. `git init` Add .git folder to initialize git
-4. `touch index.html` Create the first file.
-5. `git add index.html` Add the file in the local repository
-6. `git commit -m "First commit"` First commit
-7. `git status` Check the status of the repository
+To create a new project folder, we'll use the make directory command `mkdir` followed by a name, which in this case is `SampleProject`. The full command to create a directory is. 
+
+- `mkdir SampleProject` 
+
+After creating the new directory, navigate into it by using.
+
+- `cd SampleProject` 
+
+For file tracking, we need to initialize a repository. A repo contains the necessary metadata to track our project and appears as a single folder named `.git`. 
+
+>Folders or files that start with a period are designated as hidden in the operating system, and may only be visible by changing preferences, using the command line, or viewing in a special program like an IDE.
+
+To initialize our project as a Git repo, enter git init.
+- `git init` 
+
+We'll use `touch` command to update or create a file if it doesn't exist. Try out the command `touch index.html file.css file.js` to generate project files and ls to see the result. 
+
+- `touch index.html` 
+
+Before applying any changes to Git, you first maybe need to check the status. It's an optional step, but sometimes useful for making sure reality matches what's in your head. 
+
+- `git status` 
+
+When you add files with Git, you're preparing to record or stage the changes. Although you could add a single file, usually it's best to stage all changes with the following command.
+
+- `git add index.html` Add single file
+- `git add .` add all files
+
+Rechecking the status with `git status` is optional, but will show you what changes has been made.
+
+After staging your changes, you can save them by committing. You add a message to the commit, so you know what changes occurred.  Make sure to provide a concise description by adding meaningful messages that helps your teammates (and yourself) understand what happened. 
+- `git commit -m "First commit"` 
 
 ![Starting Project](/images/GitGithubpost/startingProject.png)
 
-8. `code .` Open project with VS Code and put some html code.
+- `code .` Open project with VS Code and put some html code.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -93,13 +128,15 @@ Let's create a sample project with cmd commands.
 </body>
 
 </html>
- ```
+```
 
 
-9. `git commit -m "Second commit"` Second commit  
-10. Now you need to connect your local repo with github repository. 
+- `git commit -m "Second commit"` Second commit  
+
+- Now you need to connect your local repo with github repository. 
 `git remote add origin https://github.com/user/repo.git`
-user is your github name and repo is the name of your repository. Add `git push -u origin master` to push your project in github repository   
+user is your github name and repo is the name of your repository. 
+- Add `git push -u origin master` to push your project in github repository   
 
 You can refresh the browser in github and you'll see the folder with the index.html file in the github repository 
 

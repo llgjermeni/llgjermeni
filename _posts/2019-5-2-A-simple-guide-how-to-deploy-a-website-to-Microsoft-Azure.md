@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deploy a website to Microsoft Azure
+title: How to deploy a website to Microsoft Azure
 ---
 
 Microsoft Azure is the most known cloud provider that enables you to build, deploy, monitor, and scale cloud hosted services. Deployment in Azure is flexible, you can deploy your code from Visual Studio, from GitHub, from Azure DevOps, and Azure portal. 
@@ -29,7 +29,7 @@ To use Visual Studio Code for Azure development, you'll need to install  Azure A
 - Click Sign in to Azure with your account. You should see your subscription name.
 - Enter `ctrl+p` to display the command palette and click Create New Web App
 
- ![Create Web App](/images/SecondPost/CreateWebApp.PNG)
+ ![Create Web App](/images/SecondPost/CreateWebApp.png)
 
 - Enter the app name, must be unique
 - Choose a location 
@@ -62,17 +62,17 @@ Press File and New Project.
 - Select MVC.
 - On Authentication select No Authentication.
 
-![Mvc Project](/images/SecondPost/MvcProject.PNG)
+![Mvc Project](/images/SecondPost/MvcProject.png)
 
 - Check the Configure for HTTPS
 
 After a while, you will see the project in solution explorer.
 
-![Solution Explorer](/images/SecondPost/SolutionExplorer.PNG)
+![Solution Explorer](/images/SecondPost/SolutionExplorer.png)
 
 Run the Application with the green button or prees F5 and you will notice the template created.
 
-![Web Template](/images/SecondPost/Template.PNG)
+![Web Template](/images/SecondPost/Template.png)
 
 Stop the application, right click on your Project and press Publish.
 In the App Service tab check Create New and press Publish. Now you need to enter your app details.
@@ -83,11 +83,11 @@ In the App Service tab check Create New and press Publish. Now you need to enter
 - Activate Application Insight, it's optional
 - Finally press Create
 
-![Create Azure Web App](/images/SecondPost/CreateAzureWebApp.PNG)
+![Create Azure Web App](/images/SecondPost/CreateAzureWebApp.png)
 
 And the result in browser as you can see the app is published with the url https://my-sample.azurewebsite.net
 
-![Azure Web App](/images/SecondPost/AzureApp.PNG)
+![Azure Web App](/images/SecondPost/AzureApp.png)
 
 Congratulations! You just published your first app in Azure using Visual Studio 2017. 
 
@@ -99,17 +99,17 @@ To start with, you need to create a new repository in GitHub and push an .NET Co
 
 Let's go to github and fill in the details needed like repository name and click the **Create repository** button to get up and running with your repository. 
 
-![Create Github Repository](/images/SecondPost/GithubRepo.PNG)
+![Create Github Repository](/images/SecondPost/GithubRepo.png)
 
 Now it's time for your .NET Core web app. Using dotnet commands you can create a new web app.
 - use the command `dotnet new webapp -n sample-app` to create a new razor app.
 - enter `cd sample-app` and `dotnet run` to run the app 
 
-![Create with dotnet commands](/images/SecondPost/DotnetCommands.PNG)
+![Create with dotnet commands](/images/SecondPost/DotnetCommands.png)
 
 Now you can see the app running.
 
-![In Browser](/images/SecondPost/InBrowser.PNG)
+![In Browser](/images/SecondPost/InBrowser.png)
 
 Stop the app and to push the new dotnet web app to GitHub you need to write the following commands:
 
@@ -125,14 +125,14 @@ Now you need to go to the Azure portal to create your web app.
 
 - Enter `portal.azure.com` in browser, navigate to the App Services and click Add button. Enter your app details: name, resource group, app service plan and location and click the Create button.
 
-![Add App](/images/SecondPost/AddApp.PNG)
+![Add App](/images/SecondPost/AddApp.png)
 
 After your app got created scroll down, press Deployment Center and select the GitHub option.
 
- ![Deployment](/images/SecondPost/Deployment.PNG)
+ ![Deployment](/images/SecondPost/Deployment.png)
 
  Press the Continue button. In the next tab you need to enter your GitHub name, select your repository, branch and again press continue.
 
-![Select repository](/images/SecondPost/SelectRepository.PNG)
+![Select repository](/images/SecondPost/SelectRepository.png)
 
 Now at the end press the Finish button, wait few minutes and click the link of the web app you just created.

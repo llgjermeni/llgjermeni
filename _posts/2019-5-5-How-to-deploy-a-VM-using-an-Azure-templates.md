@@ -4,10 +4,11 @@ title: How to deploy a VM using an Azure templates
 ---
 
 In this particle, I’ll show you a basic guide of how to deploy Virtual Machine using an Azure template. Template can be used to deploy one/multiple Virtual Machines and of course other services.
-
 But first let's understand the role of Azure Resource Manager.
+
 Azure Resource Manager (ARM) with its infrastructure management platform can provide a resource group capability. So you could use and create resources that you need and bundle them up logically into a container which is called a resource group. The other thing it offers you is the object of this article is what we call deployment templates.
 The entire set up of creating a resource group with all the resources in it can be scripted in a template with just JSON.
+
 The Azure classic, the management portal was on XML, but the new (ARM) is very lightweight, and runs off the open source JSON notification format. At the center of everything is the workload that Azure offers.
 For example, within Microsoft.Compute, you can have different resource types. You could have availability sets, you could have virtual machines and so on and so forth.
 

@@ -50,7 +50,7 @@ When installing Visual Studio, you'll see that several workloads are available. 
 - **Azure development** workload which includes the Azure SDKs, tooling, and template projects
 - **ASP.NET and web development** which is the development workload in Visual Studio 2017 designed to maximize your productivity in developing web applications using ASP.NET and standards-based technologies like HTML and JavaScript.
 
-![Azure Development](/images/SecondPost/select-azure-workload.png)
+![Azure Development](/images/SecondPost/azure_workload.png)
 
 Open Visual Studio and click the View menu to make sure you have the Cloud Explorer option.
 At this point let's create a template ASP.NET MVC Core Project just for demostration. 

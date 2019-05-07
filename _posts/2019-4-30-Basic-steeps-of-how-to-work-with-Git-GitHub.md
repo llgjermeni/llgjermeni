@@ -5,7 +5,6 @@ title: Basic steeps of how to work with Git & GitHub
 
 When you start learning to code in paralel you need to learn how to use some basic tools like Git & GitHub.
 In this article, I’ll give you some hints how to get starting with these tools. 
-
 If you read the article until the end I'll get you up and running with the basics. There’s a lot of informations to learn if you want to use Git and GitHub in a professional way, of course but with this article you can get just an introductory!
 
 Let’s get started!

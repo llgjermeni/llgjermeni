@@ -69,7 +69,7 @@ Press Save and Run, press again Save and run. After a while a pipeline will be b
 
 Now you need to create a Deployment Group
 
- ![The github repo](/images/FifthPost/DeploymentGroup.PNG)
+ ![The github repo](/images/fifthPost/DeploymentGroup.PNG)
  
 Enter a name and a description and click Create. 
 

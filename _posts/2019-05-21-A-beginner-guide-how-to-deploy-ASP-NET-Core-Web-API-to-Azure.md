@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A beginner guide how to deploy ASP .NET Core Web API to Azure
+title: A beginner guide how to deploy a ASP .NET Core Web API to Azure
 ---
 
 In this article I will show you how to deploy a ASP .NET Core Web API to Azure. Even if this a beginner guide you need to have some basic knowledge of Azure Web Apps, Visual Studio Code and ASP .NET Core Web API. 

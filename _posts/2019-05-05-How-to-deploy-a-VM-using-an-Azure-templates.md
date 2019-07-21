@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to deploy a VM using an Azure templates
+title: How to deploy a VM using Azure templates
 ---
 
 In this particle, I’ll show you a basic guide of how to deploy Virtual Machine using an Azure template. Template can be used to deploy one/multiple Virtual Machines and of course other services.

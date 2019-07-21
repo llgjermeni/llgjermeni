@@ -5,7 +5,10 @@ title: Deploying ASP .NET Core MVC Web app using CI and CD in IIS Server from Az
 
 
 This article is a freelance project that I have worked for a client. The project was a .NET Core web app deployed in Azure DevOps using Continues Deployment and Continues Integration from GitHub and published on a IIS Server on target machine.
+
+
 ## Create a repository in GitHub
+
 I started by creating the repository to host the project. Repositories on Github can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs. 
 1.	Click `click+` in the upper right corner, and then select New repository
 2.	Enter the name you want for your project

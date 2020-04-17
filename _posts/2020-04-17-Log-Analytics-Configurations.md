@@ -3,6 +3,8 @@ layout: post
 title: Log Analytics Configurations
 ---
 
+In this tutorial I will show you how to configure Log Analytics to monitor resources like Azure VM, local pc, Azure Storage, Azure VM Scalability Set, Azure AKS, Azure Event Hub and Azure Cosmos DB.
+
 >Azure Monitor maximizes the availability and performance of your applications and services by delivering a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments. It helps you understand how your applications are performing and proactively identifies issues affecting them and the resources they depend on.
 
 Let set what we can do with Azure Monitor:
@@ -13,7 +15,6 @@ Let set what we can do with Azure Monitor:
 4. Support operations at scale with smart alerts and automated actions.
 5. Create visualizations with Azure dashboards and workbooks.
 
-In this tutorial I will show you how to configure Log Analytics to monitor resources like Azure VM, local pc, Azure Storage, Azure VM Scalability Set, Azure AKS, Azure Event Hub and Azure Cosmos DB.
 ## How to create Log Analytics
 
 Let’s start. First, we need to create Azure Log Analytics. In All resources click Add and on search bar enter Log Analytics. 
